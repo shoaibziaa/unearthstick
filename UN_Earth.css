@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* font Family */
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/flaticon/.eot?10si43');
+    src: url('fonts/icomoon.eot?10si43#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?10si43') format('truetype'),
+        url('fonts/icomoon.woff?10si43') format('woff'),
+        url('fonts/icomoon.svg?10si43#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.eot");
+    src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+        url("./Flaticon.woff2") format("woff2"),
+        url("./Flaticon.woff") format("woff"),
+        url("./Flaticon.ttf") format("truetype"),
+        url("./Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* commman class */
+.carousel {
+    display: flex;
+    width: 100%;
+    float: left;
+}
+
+
+.full {
+    float: left;
+    width: 100%;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.custom_container {
+    width: 610px;
+    margin: 0 auto;
+}
+
+.grid_50 {
+    float: left;
+    width: 50%;
+}
+
+.grid_60 {
+    float: left;
+    width: 66%;
+}
+
+.grid_51 {
+    float: right;
+    width: 50%;
+}
+
+.grid_33 {
+    float: left;
+    width: 33.33%;
+}
+
+.grid_40 {
+    float: left;
+    width: 40%;
+}
+
+/* end comman class */
+
+
+/*********** iocons_custeam_style************/
+
+.icons_custom {
+    padding-right: 10px;
+}
+
+.fa-check {
+    color: #ff8b00;
+    margin-right: 10px;
+}
+
+
+/***********End iocons_custeam_style************/
+
+/****** Start top Info social Nav ******/
+.section_unerth_header {
+    background:
+        linear-gradient(to right, #7a5e86 0%, #a75e67 51%, #f77b2e 100%);
+}
+
+.full.unerth_header {
+    margin: 10px auto;
+}
+
+.un_earth_info li {
+    list-style-type: none;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+.un_earth_info ul {
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+
+.un_earth_part_social ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    float: right;
+}
+
+.un_earth_part_social ul li a {
+    color: #ffffff;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+/****** End top Info social Nav ******/
+
+/****** Start Main UN_EARTH_HEADER ******/
+.active_link_home {
+    color: #ff8b00;
+}
+
+.main_unerth_header {
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+}
+
+span.logo_unearth {
+    color: #ff8b00;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 800;
+    float: left;
+    width: 100%;
+    margin-top: 22px;
+    text-transform: uppercase;
+}
+
+.un_earth_link ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    float: right;
+
+}
+
+.un_earth_link ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+.un_earth_link ul li {
+    padding: 20px 0 20px 0;
+    margin: 0 20px;
+
+}
+
+/****** End Main UN_EARTH_HEADER ******/
+
+
+/****** Start_unerath_owlcarouse ******/
+.unerath_owlcarouse {
+
+    background-image: url(img/hero_3.jpg);
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    float: left;
+
+}
+
+.heading {
+    margin: 200px 0 40px 0;
+
+}
+
+.heading h1 {
+    text-align: center;
+    color: #ffffff;
+
+    font-size: 52px;
+    margin: 0;
+}
+
+.heading p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+a.get_in_touch {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 248px;
+
+}
+
+a.get_in_touch:hover {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19px;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #ff8b00;
+
+}
+
+/****** End_unerath_owlcarouse ******/
+
+
+/****** Land And Properties ******/
+.land_properties {
+    margin: 67px 0 20px 0;
+}
+
+img {
+    float: left;
+    width: 100%;
+    height: 600px;
+}
+
+h1.land_property_h1 {
+    font-family: Oswald;
+}
+
+p.land_property_p {
+    font-size: 16px;
+    color: #939393;
+    line-height: 26px;
+}
+
+.Loremcustum {
+    margin-left: 72px;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+ul.Lorem_ul {
+    line-height: 49px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+ul li {}
+
+/* */
+.land_properties_part_two {
+    margin: 0px 0 100px 0;
+}
+
+.Loremcustum_part_two {
+    margin-right: 102px;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+/* 
+  Surfing Box Ming 
+
+*/
+.full.section_surfing_box {
+    background-color: #f8f9fa;
+}
+
+.surfing_ming {
+    margin: 80px 0 80px 0;
+
+}
+
+img.surfing_icon {
+    width: 17%;
+    float: none;
+    height: auto;
+}
+
+h1.surfing_Minnig_h1 {
+    margin: 12px 0 10px 0;
+    font-size: 23px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+p.surfing_Minnig_p {
+    line-height: 25px;
+    color: #939393;
+    margin: 0;
+    font-size: 16px;
+
+}
+
+.main_box_icons {
+    margin: 50px 40px 20px 0;
+}
+/* section_video_player */
+
+.full.section_video_player {
+    background-color: #343a40;
+}
+.video {
+    margin: 40px 40px 40px 40px;
+}
